@@ -1,0 +1,2 @@
+I made a simple website that allows users to search for Pokémon by name or ID, using the PokeAPI. It displays the Pokémon’s name, image, and type (bonus). The app uses vanilla JavaScript with async/await and Fetch API, it updates the DOM dynamically, and provides clear feedback if a Pokémon is not found. An additional random Pokémon generator feature is included. The project is organized with separate HTML, CSS, and JavaScript files for clarity.
+

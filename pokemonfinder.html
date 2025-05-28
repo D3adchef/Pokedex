@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokédex | Pokémon Finder & Random Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header">
+    <img src="pokemon.png" alt="Pokémon Logo" id="logo">
+  </div>
+  <div id="main-grids">
+    <!-- Finder Grid -->
+    <section class="panel">
+      <h2>Pokémon Finder</h2>
+      <div class="search-row">
+        <input type="text" id="pokemonInput" placeholder="Name or ID">
+        <button id="searchBtn">Explore</button>
+      </div>
+      <div class="pokedex-grid" id="finderGrid"></div>
+    </section>
+    <!-- Random Generator Grid -->
+    <section class="panel">
+      <h2>Random Generator</h2>
+      <div class="search-row">
+        <button id="randomBtn">Start Generator</button>
+      </div>
+      <div class="pokedex-grid" id="randomGrid"></div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
